@@ -1,2 +1,4 @@
 # A-Star
 A-search is a fast search algorithm for graphic-search, where the shortest trajectory to go from Node-Start to Node-Goal is found. A graph has a node and each node should have a cost. The cost is calculated as h + g. As an example in Node-X: Cost g is equal to the shortest distance from going through nodes from Node-Start to Node-X. Cost h is equal to the remaining direct distance from Node-X to Node-Goal.....The search starts from at Node_Start. First, it expands the search to its neighbors. The neighbors are saved in a Memory called Frontier and their cost (g+h) is calculated in order to get the lowest cost node of the Frontier. Then, the process is repeated with this node. Explored nodes are eliminated from the Frontier and can not be added again. Search finishes when the shortest trayectory to go from Node-Start to Node-Goal is found.
+
+Done as part of a Course by Udacity.
